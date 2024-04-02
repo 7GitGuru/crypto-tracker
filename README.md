@@ -1,70 +1,38 @@
 <h2 align="center">
-  Crypto Tracker<br/>
+  Landing page website for CryptoTracker<br/>
   <a href="https://cryptotrack3r.vercel.app/" target="_blank">cryptotrack3r.vercel.app</a>
 </h2>
-
-<p align="center">
- Crypto Tracker is a Python module that allows you to track the prices of cryptocurrencies in real-time. 
-You can specify the cryptocurrency you want to track and the module will provide you with live updates on its price.
-</p>
-
 <div align="center">
-
-[![PyPi license](https://badgen.net/pypi/license/pip/)](https://pypi.org/project/coinprice/)
-[![Downloads](https://static.pepy.tech/badge/coinprice)](https://pepy.tech/project/coinprice)
-[![PyPI format](https://img.shields.io/pypi/format/coinprice.svg)](https://pypi.org/project/coinprice/)
-[![PyPI version](https://img.shields.io/pypi/v/coinprice)](https://pypi.org/project/coinprice/)
-
+  <img alt="Demo" src="./img/demo.png"/>
 </div>
 
----
-## Features
+<br/>
 
-- Track the prices of various cryptocurrencies.
-- Flexible Command-line Usage.
-- Customizable.
-- Set a custom interval for price updates.
-- Open-source project.
+<h3 align="center">
 
---- 
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/cryptotrack3r.vercel.app.svg)](https://cryptotrack3r.vercel.app/) &nbsp;
+[![GitHub license](https://img.shields.io/github/license/7GitGuru/crypto-tracker.svg)](https://github.com/7GirGuru/crypto-tracker/blob/main/LICENSE) &nbsp;
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/7GirGuru/crypto-tracker/)
 
-![image](https://github.com/7GitGuru/crypto-tracker/assets/154711952/d5386490-30ca-4bdd-85ec-c0f936cfd5da)
+
+</h3>
+
+<h3 align="center">
+    🔹
+    <a href="https://github.com/7GitGuru/landing-cryptotracker/issues">Report Bug</a> &nbsp; &nbsp;
+    🔹
+    <a href="https://github.com/7GitGuru/landing-cryptotracker/issues">Request Feature</a>
+</h3>
 
 ----
 
-## Installation
+<h3 align="center">
 
-You can install Crypto Tracker using pip:
+Crypto Tracker is a Python module that allows you to track the prices of cryptocurrencies in real-time. You can specify the cryptocurrency you want to track and the module will provide you with live updates on its price.
 
-```
-pip install coinprice
-```
+[Read more about](https://github.com/7GitGuru/crypto-tracker)
 
-## Usage
-
-To track the price of a cryptocurrency, simply run the following command:
-
-**[Here you can find a list of all cryptocurrencies you can use.](https://github.com/7GitGuru/crypto-tracker/blob/main/coin-names.json)**
-
-```
-price <coin> [--interval time]
-```
-
-Replace `<coin>` with the cryptocurrency you want to track (e.g., bitcoin, ethereum). You can optionally specify the interval (in seconds) for price updates using the `--interval` flag. By default, the interval is set to 15 seconds.
-
-Example usage:
-
-```
-price btc                        Track the price of Bitcoin from all exchanges.
-price eth --binance              Track the price of Bitcoin from Binance.
-price ltc --bybit --interval 10  Track the price of Litecoin from Bybit with a check interval of 10 seconds.
-```
-
-### [Check out Telegram version!](https://github.com/7GitGuru/crypto-tracker/tree/telegram)
-
-## Contributing
-
-Contributions to Crypto Tracker are welcome! If you find any bugs or have suggestions for new features, please open an issue or submit a [pull request](https://github.com/7GitGuru/crypto-tracker/pulls) on GitHub.
+</h3>
 
 ## License
 
